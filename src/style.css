@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: outfit;
+  src: url(assets/fonts/outfit/static/Outfit-Regular.ttf);
+}
+@font-face {
+  font-family: young;
+  src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 145, 0, 0.418);
+}
+main {
+  margin: 50px 0;
+  width: 40%;
+  border-radius: 10px;
+  padding: 20px 20px 10px;
+  background-color: rgb(255, 255, 255);
+}
+/* Imagem do omellete */
+.content img {
+  width: 100%;
+  margin: 0 0 10px 0;
+  border-radius: 5px;
+}
+/* div do titulo e da descrição */
+.title-description {
+  margin: 0 0 10px 0;
+}
+/* Titulo */
+.title-description h1 {
+  margin: 0 0 10px 0;
+  font-family: "young";
+  font-weight: 400;
+}
+/* Decrição */
+.title-description span {
+  margin: 0 0 10px 0;
+  font-family: "outfit";
+}
+/* final descrição */
+
+/* Area de preparação */
+.are-preparation {
+  padding: 7px 0;
+  margin: 20px 0 15px 0;
+  border-radius: 5px;
+  background-color: rgba(255, 153, 0, 0.103);
+}
+/* titulo da preparação */
+.are-preparation h3 {
+  font-family: "outfit";
+  color: rgba(162, 0, 255, 0.815);
+  font-size: 16px;
+  margin: 0 0 10px 25px;
+}
+/* lista de preparação */
+.are-preparation ul {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 50px;
+  padding: 5px 0;
+}
+/* parte interior da lista */
+.preparation li {
+  font-family: "outfit";
+  margin: 0 0 5px 0;
+}
+/* parte texto interior da lista preparação */
+.preparation p {
+  font-weight: bold;
+  display: inline;
+  margin: 0 2px;
+}
+/* final da parte da preparacão */
+
+/* parter de ingredientes */
+.are-ingredients {
+  padding: 7px 0;
+  margin: 0 0 15px 0;
+}
+/* titulo do ingredient */
+.are-ingredients h3 {
+  font-family: "young";
+  color: rgba(162, 0, 255, 0.815);
+  font-size: 19px;
+  margin: 0 0 10px 5px;
+}
+/* lista de ingredientes */
+.are-ingredients ul {
+  font-family: "outfit";
+  margin: 0 0 0 25px;
+}
+/* parte interior da lista de ingredientes */
+.are-ingredients li {
+  font-family: "outfit";
+  margin: 0 0 5px 0;
+}
+/* final ingredientes */
+.are-instrutions {
+  padding: 7px 0;
+  margin: 25px 0 15px 0;
+}
+/* parte final do ingredientes */
+
+/* parte de instrução */
+.are-instrutions {
+  padding: 7px 0;
+  margin: 20px 0 15px 0;
+}
+/* titulo instrução */
+.are-instrutions h3 {
+  font-family: "young";
+  color: rgba(162, 0, 255, 0.815);
+  font-size: 19px;
+  margin: 0 0 10px 5px;
+}
+/* lista da instrução */
+.are-instrutions ol {
+  font-family: "outfit";
+  margin: 0 0 0 30px;
+}
+/* parte interior da lista de instrução*/
+.are-instrutions li {
+  font-family: "outfit";
+  margin: 0 0 5px 0;
+}
+/* parte texto interior da lista de instrução */
+.are-instrutions li p {
+  font-weight: bold;
+  display: inline;
+  margin: 0 2px;
+}
+/* parte final da instrução */
+
+/* parte de nutrição */
+.are-nutrition {
+  /* padding: 7px 0; */
+  margin: 20px 0 0 0;
+}
+/* titulo da nutrição */
+.are-nutrition h3 {
+  font-family: "young";
+  color: rgba(162, 0, 255, 0.815);
+  font-size: 19px;
+  margin: 0 0 10px 5px;
+}
+/* parte texto interior da tabela nutrição */
+.are-nutrition .description-nutrition {
+  margin: 0 2px 10px 0;
+  font-family: "outfit";
+}
+/* parte da tabela */
+.are-nutrition table {
+  width: 50%;
+  padding: 10px 0;
+  margin: 0 0 10px 30px;
+  /* border: 1px solid black; */
+  border-collapse: collapse;
+}
+/* parte interior da tabela */
+.are-nutrition tr {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+/* parte interno da tabela */
+.are-nutrition table tr td {
+  font-family: "outfit";
+}
+/* parte de texto da tabela */
+.are-nutrition table tr td .text-table {
+  font-weight: bold;
+  font-family: "outfit";
+  color: rgb(207, 1, 1);
+}
+@media screen and (max-width: 800px) {
+  body {
+    width: 100%;
+  }
+  main {
+    width: 80%;
+    border-radius: 10px;
+    padding: 20px 20px 10px;
+    background-color: rgb(255, 255, 255);
+  }
+  /* Imagem do omellete */
+  .content img {
+    width: 100%;
+    margin: 0 0 10px 0;
+    border-radius: 5px;
+  }
+  /* div do titulo e da descrição */
+  .title-description h1 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    font-family: "young";
+    font-weight: 400;
+  }
+  /* Decrição */
+  .title-description span {
+    margin: 0 0 10px 0;
+    font-family: "outfit";
+    font-size: 14px;
+  }
+  /* final descrição */
+  /* Area de preparação */
+  .are-preparation {
+    padding: 7px 0;
+    margin: 20px 0 15px 0;
+    border-radius: 5px;
+    background-color: rgba(255, 153, 0, 0.103);
+  }
+  /* titulo da preparação */
+  .are-preparation h3 {
+    font-family: "outfit";
+    color: rgba(162, 0, 255, 0.815);
+    font-size: 16px;
+    margin: 0 0 10px 25px;
+  }
+  /* lista de preparação */
+}
